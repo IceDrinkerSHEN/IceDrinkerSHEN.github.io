@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>一途一心</title>
+  
+  <subtitle>一念永安</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://IceDrinkerSHEN.github.io/"/>
+  <updated>2020-05-07T21:48:12.538Z</updated>
+  <id>http://IceDrinkerSHEN.github.io/</id>
+  
+  <author>
+    <name>一念永安</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>金字塔原理</title>
+    <link href="http://IceDrinkerSHEN.github.io/2020/05/08/%E9%87%91%E5%AD%97%E5%A1%94%E5%8E%9F%E7%90%86/"/>
+    <id>http://IceDrinkerSHEN.github.io/2020/05/08/金字塔原理/</id>
+    <published>2020-05-07T22:54:53.000Z</published>
+    <updated>2020-05-07T21:48:12.538Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;关于本书&quot;&gt;&lt;a href=&quot;#关于本书&quot; class=&quot;headerlink&quot; title=&quot;关于本书&quot;&gt;&lt;/a&gt;关于本书&lt;/h3&gt;&lt;p&gt;《金字塔原理》是一本讲述关于表述逻辑与思维逻辑的读物，在过去的四十年里面畅销不衰，同时也被麦肯锡作为培训教材9四十年。本书的
+      
+    
+    </summary>
+    
+      <category term="心智认知" scheme="http://IceDrinkerSHEN.github.io/categories/%E5%BF%83%E6%99%BA%E8%AE%A4%E7%9F%A5/"/>
+    
+    
+      <category term="写作技巧" scheme="http://IceDrinkerSHEN.github.io/tags/%E5%86%99%E4%BD%9C%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>什么是算法</title>
+    <link href="http://IceDrinkerSHEN.github.io/2020/03/30/%E4%BB%80%E4%B9%88%E6%98%AF%E7%AE%97%E6%B3%95/"/>
+    <id>http://IceDrinkerSHEN.github.io/2020/03/30/什么是算法/</id>
+    <published>2020-03-30T11:45:41.000Z</published>
+    <updated>2020-03-30T10:04:28.554Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;什么是算法&quot;&gt;&lt;a href=&quot;#什么是算法&quot; class=&quot;headerlink&quot; title=&quot;什么是算法&quot;&gt;&lt;/a&gt;什么是算法&lt;/h3&gt;&lt;p&gt;数据结构+算法=程序，算法是指对特定问题求解步骤的一种描述，这种描述不局限于某一种特定的编程语言，既可以是C++，也
+      
+    
+    </summary>
+    
+      <category term="计算机科学" scheme="http://IceDrinkerSHEN.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/"/>
+    
+    
+      <category term="数据结构与算法" scheme="http://IceDrinkerSHEN.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C++：内存四区</title>
+    <link href="http://IceDrinkerSHEN.github.io/2020/03/10/C-%EF%BC%9A%E5%86%85%E5%AD%98%E5%9B%9B%E5%8C%BA/"/>
+    <id>http://IceDrinkerSHEN.github.io/2020/03/10/C-：内存四区/</id>
+    <published>2020-03-09T15:15:11.000Z</published>
+    <updated>2020-03-10T07:51:30.717Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;哪四个区域&quot;&gt;&lt;a href=&quot;#哪四个区域&quot; class=&quot;headerlink&quot; title=&quot;哪四个区域&quot;&gt;&lt;/a&gt;哪四个区域&lt;/h3&gt;&lt;p&gt;在C++语言中内存的使用可以被分为四个区域：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;代码区：存放函数体的二进制代
+      
+    
+    </summary>
+    
+      <category term="计算机科学" scheme="http://IceDrinkerSHEN.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/"/>
+    
+    
+      <category term="C++" scheme="http://IceDrinkerSHEN.github.io/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>The TCP/IP Layer Model</title>
+    <link href="http://IceDrinkerSHEN.github.io/2020/03/09/The-TCP-IP-layer-model/"/>
+    <id>http://IceDrinkerSHEN.github.io/2020/03/09/The-TCP-IP-layer-model/</id>
+    <published>2020-03-09T08:46:10.000Z</published>
+    <updated>2020-03-09T10:05:11.502Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;TCP/IP层模型如下图所示&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//IceDrinkerSHEN.github.io/2020/03/09/The-TCP-IP-layer-model/TCPIP.png&quot; style=&quot;zoom: 67%;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;分为五个层次
+      
+    
+    </summary>
+    
+      <category term="计算机科学" scheme="http://IceDrinkerSHEN.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/"/>
+    
+    
+      <category term="计算机网络" scheme="http://IceDrinkerSHEN.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C++：结构体</title>
+    <link href="http://IceDrinkerSHEN.github.io/2020/03/07/C-%EF%BC%9A%E7%BB%93%E6%9E%84%E4%BD%93/"/>
+    <id>http://IceDrinkerSHEN.github.io/2020/03/07/C-：结构体/</id>
+    <published>2020-03-07T12:34:05.000Z</published>
+    <updated>2020-03-07T15:27:16.597Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;什么是结构体&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;结构体属于用户自定义的数据类型，用户可以在结构体中存储不同的数据类型。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;结构体的定义和使用&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;结构体的语法如下所示：&lt;/p&gt;
+&lt;figure class
+      
+    
+    </summary>
+    
+      <category term="计算机科学" scheme="http://IceDrinkerSHEN.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/"/>
+    
+    
+      <category term="C++" scheme="http://IceDrinkerSHEN.github.io/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>批判性思维过程中的障碍</title>
+    <link href="http://IceDrinkerSHEN.github.io/2020/03/02/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%9A%9C%E7%A2%8D/"/>
+    <id>http://IceDrinkerSHEN.github.io/2020/03/02/批判性思维过程中的障碍/</id>
+    <published>2020-03-02T09:17:25.000Z</published>
+    <updated>2020-03-02T09:18:17.567Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;批判性思维过程中的障碍&quot;&gt;&lt;a href=&quot;#批判性思维过程中的障碍&quot; class=&quot;headerlink&quot; title=&quot;批判性思维过程中的障碍&quot;&gt;&lt;/a&gt;批判性思维过程中的障碍&lt;/h3&gt;&lt;p&gt;阻碍人们进行批判性思维的因素有很多：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;缺乏
+      
+    
+    </summary>
+    
+      <category term="逻辑学" scheme="http://IceDrinkerSHEN.github.io/categories/%E9%80%BB%E8%BE%91%E5%AD%A6/"/>
+    
+    
+      <category term="批判性思维" scheme="http://IceDrinkerSHEN.github.io/tags/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>刻意练习</title>
+    <link href="http://IceDrinkerSHEN.github.io/2020/02/23/%E5%88%BB%E6%84%8F%E7%BB%83%E4%B9%A0/"/>
+    <id>http://IceDrinkerSHEN.github.io/2020/02/23/刻意练习/</id>
+    <published>2020-02-23T06:31:17.000Z</published>
+    <updated>2020-02-23T17:01:24.633Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;一万小时定律&quot;&gt;&lt;a href=&quot;#一万小时定律&quot; class=&quot;headerlink&quot; title=&quot;一万小时定律&quot;&gt;&lt;/a&gt;一万小时定律&lt;/h3&gt;&lt;p&gt;在《异类》中，作者通过引用调查和科学实验告诉人们：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;人们眼中的天才之
+      
+    
+    </summary>
+    
+      <category term="心智认知" scheme="http://IceDrinkerSHEN.github.io/categories/%E5%BF%83%E6%99%BA%E8%AE%A4%E7%9F%A5/"/>
+    
+    
+      <category term="学习技巧" scheme="http://IceDrinkerSHEN.github.io/tags/%E5%AD%A6%E4%B9%A0%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>心智认知原则</title>
+    <link href="http://IceDrinkerSHEN.github.io/2020/02/22/%E5%BF%83%E6%99%BA%E8%AE%A4%E7%9F%A5%E5%8E%9F%E5%88%99/"/>
+    <id>http://IceDrinkerSHEN.github.io/2020/02/22/心智认知原则/</id>
+    <published>2020-02-22T08:25:56.000Z</published>
+    <updated>2020-03-01T11:18:41.841Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;建立具体的目标&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;目标的建立要满足Smart法则&lt;ol&gt;
+&lt;li&gt;目标必须是具体的（Specific）&lt;br&gt;　　2. 目标必须是可以衡量的（Measurable）&lt;br&gt;　　3. 目标必须是可以达
+      
+    
+    </summary>
+    
+      <category term="原则" scheme="http://IceDrinkerSHEN.github.io/categories/%E5%8E%9F%E5%88%99/"/>
+    
+    
+      <category term="原则" scheme="http://IceDrinkerSHEN.github.io/tags/%E5%8E%9F%E5%88%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C++：指针相关知识点</title>
+    <link href="http://IceDrinkerSHEN.github.io/2020/02/20/C-%EF%BC%9A%E6%8C%87%E9%92%88%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86%E7%82%B9/"/>
+    <id>http://IceDrinkerSHEN.github.io/2020/02/20/C-：指针相关知识点/</id>
+    <published>2020-02-20T10:19:23.000Z</published>
+    <updated>2020-03-07T09:59:11.251Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;指针本身就是一个变量，该变量&lt;strong&gt;包含了另一个变量的地址&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;在C++中有两种指针运算符，第一种&lt;strong&gt;取地址运算符&amp;amp;&lt;/strong&gt;，另一种是&lt;strong&gt;间接寻址运算符*&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;&amp;a
+      
+    
+    </summary>
+    
+      <category term="计算机科学" scheme="http://IceDrinkerSHEN.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/"/>
+    
+    
+      <category term="C++" scheme="http://IceDrinkerSHEN.github.io/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C++：冒泡排序</title>
+    <link href="http://IceDrinkerSHEN.github.io/2020/02/19/C-%EF%BC%9A%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F/"/>
+    <id>http://IceDrinkerSHEN.github.io/2020/02/19/C-：冒泡排序/</id>
+    <published>2020-02-19T08:59:47.000Z</published>
+    <updated>2020-03-07T09:54:29.583Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;冒泡排序是计算机领域中一个非常简单的排序算法，通过比较一个数组中相邻的两个元素的大小，来完成对数组从大到小或者从小到大的排序。&lt;/p&gt;
+&lt;p&gt;冒泡排序的基本原理如下所示：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;比较相邻的元素。如果第一个比第二个大，就交换他们两个。&lt;/li&gt;
+&lt;li&gt;对
+      
+    
+    </summary>
+    
+      <category term="计算机科学" scheme="http://IceDrinkerSHEN.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/"/>
+    
+    
+      <category term="C++" scheme="http://IceDrinkerSHEN.github.io/tags/C/"/>
+    
+      <category term="数据结构与算法" scheme="http://IceDrinkerSHEN.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>什么是批判性思维</title>
+    <link href="http://IceDrinkerSHEN.github.io/2020/02/19/%E4%BB%80%E4%B9%88%E6%98%AF%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4/"/>
+    <id>http://IceDrinkerSHEN.github.io/2020/02/19/什么是批判性思维/</id>
+    <published>2020-02-19T06:25:02.000Z</published>
+    <updated>2020-03-02T09:17:58.115Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;什么是批判性思维&quot;&gt;&lt;a href=&quot;#什么是批判性思维&quot; class=&quot;headerlink&quot; title=&quot;什么是批判性思维&quot;&gt;&lt;/a&gt;什么是批判性思维&lt;/h3&gt;&lt;p&gt;很多人会将批判性思维和找茬，否定等联系起来，但是实际上批判性思维含有“参与或运用有技巧性的批
+      
+    
+    </summary>
+    
+      <category term="逻辑学" scheme="http://IceDrinkerSHEN.github.io/categories/%E9%80%BB%E8%BE%91%E5%AD%A6/"/>
+    
+    
+      <category term="批判性思维" scheme="http://IceDrinkerSHEN.github.io/tags/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>常见的论证谬论</title>
+    <link href="http://IceDrinkerSHEN.github.io/2020/02/15/%E5%B8%B8%E8%A7%81%E7%9A%84%E8%AE%BA%E8%AF%81%E8%B0%AC%E8%AE%BA/"/>
+    <id>http://IceDrinkerSHEN.github.io/2020/02/15/常见的论证谬论/</id>
+    <published>2020-02-15T11:43:28.000Z</published>
+    <updated>2020-02-15T11:45:28.037Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;人身攻击&quot;&gt;&lt;a href=&quot;#人身攻击&quot; class=&quot;headerlink&quot; title=&quot;人身攻击&quot;&gt;&lt;/a&gt;人身攻击&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;人身攻击（ad hominem）&lt;/strong&gt;：攻击作为信息来源人本身，而不是其资质和可信度，也不是实际
+      
+    
+    </summary>
+    
+      <category term="逻辑学" scheme="http://IceDrinkerSHEN.github.io/categories/%E9%80%BB%E8%BE%91%E5%AD%A6/"/>
+    
+    
+      <category term="论证" scheme="http://IceDrinkerSHEN.github.io/tags/%E8%AE%BA%E8%AF%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>演绎论证</title>
+    <link href="http://IceDrinkerSHEN.github.io/2020/02/15/%E6%BC%94%E7%BB%8E%E8%AE%BA%E8%AF%81/"/>
+    <id>http://IceDrinkerSHEN.github.io/2020/02/15/演绎论证/</id>
+    <published>2020-02-15T11:40:07.000Z</published>
+    <updated>2020-02-15T11:42:48.337Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;规则二十二：前肯定式&quot;&gt;&lt;a href=&quot;#规则二十二：前肯定式&quot; class=&quot;headerlink&quot; title=&quot;规则二十二：前肯定式&quot;&gt;&lt;/a&gt;规则二十二：前肯定式&lt;/h3&gt;&lt;p&gt;我们用字母p和q来代表两个陈述句，最简单的逻辑有效演绎形式是：&lt;/p&gt;
+&lt;b
+      
+    
+    </summary>
+    
+      <category term="逻辑学" scheme="http://IceDrinkerSHEN.github.io/categories/%E9%80%BB%E8%BE%91%E5%AD%A6/"/>
+    
+    
+      <category term="论证" scheme="http://IceDrinkerSHEN.github.io/tags/%E8%AE%BA%E8%AF%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>因果论证</title>
+    <link href="http://IceDrinkerSHEN.github.io/2020/02/15/%E5%9B%A0%E6%9E%9C%E8%AE%BA%E8%AF%81/"/>
+    <id>http://IceDrinkerSHEN.github.io/2020/02/15/因果论证/</id>
+    <published>2020-02-15T11:38:00.000Z</published>
+    <updated>2020-02-15T11:39:48.052Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;规则十八：因果论证始关联&quot;&gt;&lt;a href=&quot;#规则十八：因果论证始关联&quot; class=&quot;headerlink&quot; title=&quot;规则十八：因果论证始关联&quot;&gt;&lt;/a&gt;规则十八：因果论证始关联&lt;/h3&gt;&lt;p&gt;因果论证的证据通常是两件事情或者两类事情之间的一种关联—有规
+      
+    
+    </summary>
+    
+      <category term="逻辑学" scheme="http://IceDrinkerSHEN.github.io/categories/%E9%80%BB%E8%BE%91%E5%AD%A6/"/>
+    
+    
+      <category term="论证" scheme="http://IceDrinkerSHEN.github.io/tags/%E8%AE%BA%E8%AF%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>诉诸权威的论证</title>
+    <link href="http://IceDrinkerSHEN.github.io/2020/02/15/%E8%AF%89%E8%AF%B8%E6%9D%83%E5%A8%81%E7%9A%84%E8%AE%BA%E8%AF%81/"/>
+    <id>http://IceDrinkerSHEN.github.io/2020/02/15/诉诸权威的论证/</id>
+    <published>2020-02-15T11:35:46.000Z</published>
+    <updated>2020-02-15T11:37:38.160Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;规则十三：列出信息来源&quot;&gt;&lt;a href=&quot;#规则十三：列出信息来源&quot; class=&quot;headerlink&quot; title=&quot;规则十三：列出信息来源&quot;&gt;&lt;/a&gt;规则十三：列出信息来源&lt;/h3&gt;&lt;p&gt;有些事实属于生活中的&lt;strong&gt;常识性的知识&lt;/strong&gt;，
+      
+    
+    </summary>
+    
+      <category term="逻辑学" scheme="http://IceDrinkerSHEN.github.io/categories/%E9%80%BB%E8%BE%91%E5%AD%A6/"/>
+    
+    
+      <category term="论证" scheme="http://IceDrinkerSHEN.github.io/tags/%E8%AE%BA%E8%AF%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>类比论证</title>
+    <link href="http://IceDrinkerSHEN.github.io/2020/02/15/%E7%B1%BB%E6%AF%94%E8%AE%BA%E8%AF%81/"/>
+    <id>http://IceDrinkerSHEN.github.io/2020/02/15/类比论证/</id>
+    <published>2020-02-15T11:33:58.000Z</published>
+    <updated>2020-02-15T11:35:18.119Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;规则十二：类比需要相关并且相似&quot;&gt;&lt;a href=&quot;#规则十二：类比需要相关并且相似&quot; class=&quot;headerlink&quot; title=&quot;规则十二：类比需要相关并且相似&quot;&gt;&lt;/a&gt;规则十二：类比需要相关并且相似&lt;/h3&gt;&lt;p&gt;我们来看这样的一个例子：&lt;/p&gt;
+&lt;
+      
+    
+    </summary>
+    
+      <category term="逻辑学" scheme="http://IceDrinkerSHEN.github.io/categories/%E9%80%BB%E8%BE%91%E5%AD%A6/"/>
+    
+    
+      <category term="论证" scheme="http://IceDrinkerSHEN.github.io/tags/%E8%AE%BA%E8%AF%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2020任务</title>
+    <link href="http://IceDrinkerSHEN.github.io/2020/02/13/2020%E4%BB%BB%E5%8A%A1/"/>
+    <id>http://IceDrinkerSHEN.github.io/2020/02/13/2020任务/</id>
+    <published>2020-02-13T08:30:48.000Z</published>
+    <updated>2020-08-15T22:07:35.870Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;健康&quot;&gt;&lt;a href=&quot;#健康&quot; class=&quot;headerlink&quot; title=&quot;健康&quot;&gt;&lt;/a&gt;健康&lt;/h3&gt;&lt;ul&gt;
+&lt;li style=&quot;list-style: none&quot;&gt;&lt;input type=&quot;checkbox&quot;&gt; 长高3厘米&lt;/li&gt;
+&lt;li 
+      
+    
+    </summary>
+    
+    
+      <category term="计划" scheme="http://IceDrinkerSHEN.github.io/tags/%E8%AE%A1%E5%88%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>举例论证</title>
+    <link href="http://IceDrinkerSHEN.github.io/2020/02/13/%E4%B8%BE%E4%BE%8B%E8%AE%BA%E8%AF%81/"/>
+    <id>http://IceDrinkerSHEN.github.io/2020/02/13/举例论证/</id>
+    <published>2020-02-13T02:53:35.000Z</published>
+    <updated>2020-02-13T06:29:43.686Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;规则七：孤例不立&quot;&gt;&lt;a href=&quot;#规则七：孤例不立&quot; class=&quot;headerlink&quot; title=&quot;规则七：孤例不立&quot;&gt;&lt;/a&gt;规则七：孤例不立&lt;/h3&gt;&lt;p&gt;我论证过程中，我们会出于说明的目的，而只举一个例子。然而举出一个例子对于&lt;strong&gt;概括
+      
+    
+    </summary>
+    
+      <category term="逻辑学" scheme="http://IceDrinkerSHEN.github.io/categories/%E9%80%BB%E8%BE%91%E5%AD%A6/"/>
+    
+    
+      <category term="论证" scheme="http://IceDrinkerSHEN.github.io/tags/%E8%AE%BA%E8%AF%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>论证的几个基本原则</title>
+    <link href="http://IceDrinkerSHEN.github.io/2020/02/13/%E8%AE%BA%E8%AF%81%E7%9A%84%E5%87%A0%E4%B8%AA%E5%9F%BA%E6%9C%AC%E5%8E%9F%E5%88%99/"/>
+    <id>http://IceDrinkerSHEN.github.io/2020/02/13/论证的几个基本原则/</id>
+    <published>2020-02-13T02:48:53.000Z</published>
+    <updated>2020-02-13T02:52:53.602Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;规则一：明确前提和结论&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;论证的第一步是对自己发问：我想要证明什么？我的结论是什么？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;结论&lt;/strong&gt;是需要你&lt;strong&gt;为之给出理由的陈述&lt;/strong&gt;；而&lt;strong&gt;给出这些理
+      
+    
+    </summary>
+    
+      <category term="逻辑学" scheme="http://IceDrinkerSHEN.github.io/categories/%E9%80%BB%E8%BE%91%E5%AD%A6/"/>
+    
+    
+      <category term="论证" scheme="http://IceDrinkerSHEN.github.io/tags/%E8%AE%BA%E8%AF%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何长高</title>
+    <link href="http://IceDrinkerSHEN.github.io/2020/02/12/%E5%A6%82%E4%BD%95%E9%95%BF%E9%AB%98/"/>
+    <id>http://IceDrinkerSHEN.github.io/2020/02/12/如何长高/</id>
+    <published>2020-02-12T08:42:13.000Z</published>
+    <updated>2020-02-15T11:32:05.986Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;生理学上的基础知识&quot;&gt;&lt;a href=&quot;#生理学上的基础知识&quot; class=&quot;headerlink&quot; title=&quot;生理学上的基础知识&quot;&gt;&lt;/a&gt;生理学上的基础知识&lt;/h3&gt;&lt;p&gt;对人的身高的影响收到两个方面的因素的影响：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;先天：占70%
+      
+    
+    </summary>
+    
+      <category term="心智认知" scheme="http://IceDrinkerSHEN.github.io/categories/%E5%BF%83%E6%99%BA%E8%AE%A4%E7%9F%A5/"/>
+    
+    
+      <category term="运动" scheme="http://IceDrinkerSHEN.github.io/tags/%E8%BF%90%E5%8A%A8/"/>
+    
+  </entry>
+  
+</feed>

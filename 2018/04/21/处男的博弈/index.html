@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="两性," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="一途一心" type="application/atom+xml" />
+
+
+
+
+
+
+<meta name="description" content="既然是“制定策略”，那就是基于 “实然的现实” 而不是 “应然的现实”（当然对于不同的人有不同的应然，比如说平等又比如说精英主义等等）。现实是：这个社会本身还是私有制的社会（同时也是男权社会），在这样的情况下，男性主要提供的是 “生存价值”（包括房车权等等的可以提供/换取物质价值的社会要素），而女性主要提供的是 “繁衍价值”（包括脸，身材，生育，处女等等的自然要素）。 人和人的来往本质上是 价值和">
+<meta name="keywords" content="两性">
+<meta property="og:type" content="article">
+<meta property="og:title" content="如何从博弈论角度分析有处女情结男性采取的择偶策略">
+<meta property="og:url" content="http://IceDrinkerSHEN.github.io/2018/04/21/处男的博弈/index.html">
+<meta property="og:site_name" content="一途一心">
+<meta property="og:description" content="既然是“制定策略”，那就是基于 “实然的现实” 而不是 “应然的现实”（当然对于不同的人有不同的应然，比如说平等又比如说精英主义等等）。现实是：这个社会本身还是私有制的社会（同时也是男权社会），在这样的情况下，男性主要提供的是 “生存价值”（包括房车权等等的可以提供/换取物质价值的社会要素），而女性主要提供的是 “繁衍价值”（包括脸，身材，生育，处女等等的自然要素）。 人和人的来往本质上是 价值和">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://icedrinkershen.github.io/2018/04/21/处男的博弈/博弈图一.jpg">
+<meta property="og:image" content="http://icedrinkershen.github.io/2018/04/21/处男的博弈/博弈图二.jpg">
+<meta property="og:updated_time" content="2020-02-12T08:08:27.634Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="如何从博弈论角度分析有处女情结男性采取的择偶策略">
+<meta name="twitter:description" content="既然是“制定策略”，那就是基于 “实然的现实” 而不是 “应然的现实”（当然对于不同的人有不同的应然，比如说平等又比如说精英主义等等）。现实是：这个社会本身还是私有制的社会（同时也是男权社会），在这样的情况下，男性主要提供的是 “生存价值”（包括房车权等等的可以提供/换取物质价值的社会要素），而女性主要提供的是 “繁衍价值”（包括脸，身材，生育，处女等等的自然要素）。 人和人的来往本质上是 价值和">
+<meta name="twitter:image" content="http://icedrinkershen.github.io/2018/04/21/处男的博弈/博弈图一.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.4',
+    sidebar: {"position":"right","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://IceDrinkerSHEN.github.io/2018/04/21/处男的博弈/"/>
+
+
+
+
+
+  <title>如何从博弈论角度分析有处女情结男性采取的择偶策略 | 一途一心</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-right page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">一途一心</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">一念永安</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://IceDrinkerSHEN.github.io/2018/04/21/处男的博弈/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="一念永安">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="一途一心">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">如何从博弈论角度分析有处女情结男性采取的择偶策略</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-21T00:33:02+09:30">
+                2018-04-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/生命科学/" itemprop="url" rel="index">
+                    <span itemprop="name">生命科学</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  2,457
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  8
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>既然是“制定策略”，那就是基于 <strong>“实然的现实”</strong> 而不是 <strong>“应然的现实”</strong>（当然对于不同的人有不同的应然，比如说平等又比如说精英主义等等）。现实是：这个社会本身还是私有制的社会（同时也是男权社会），在这样的情况下，男性主要提供的是 <strong>“生存价值”</strong>（包括房车权等等的可以提供/换取物质价值的社会要素），而女性主要提供的是 <strong>“繁衍价值”</strong>（包括脸，身材，生育，处女等等的自然要素）。</p>
+<p>人和人的来往本质上是 <strong>价值和潜在价值之间的相互交换</strong>，一段关系能够成立和稳定定然是建立在 <strong>价值交换平衡（动态平衡）</strong> 之上的；这也就是通常意义上所说的门当户对。而价值也如同文章上述所说的是多样的，而非单一的金钱。</p>
+<p>在采取最佳策略的时候要考虑一个问题：<strong>“怎么做能够最大化自身的利益”</strong>（也就是利己），如果不能够 <strong>“以小博大”</strong>（如买彩票，但是存在着风险），那怎么做能够保证自己的投入能够尽可能的取得相应的回报，也就是 <strong>“降低风险”</strong>（这个风险来自于信息的不全面）。</p>
+<p>男性 <strong>主要</strong> 能够提供的是“生存价值”，<strong>次要</strong> 的是“繁衍价值”。只要繁衍价值本身不是极低（如丑到惨不忍睹，畸形等），就不会给男性本身带来大的负面效应。而这个排名除了对于少部分女性而言（比如说  ），往往就是：脸，身高＞体格＞处男这样一种类似的排名。</p>
+<p>基于上一段所述，保证自己是“处男”从而提出要求对方是“处女”的策略显然 <strong>不是最佳策略</strong>。有人说“你自己不是处男凭什么要求对方是处女”的反驳逻辑，但是这个是建立在“应然的事实”，也就是 <strong>“男女双方是对等式的平等”</strong> 的基础上的。但是这个“应然事实”还没有变成“实然事实”，“实然事实”是“处男羞辱”，也就是“你这么大了还是处男，真实没用”的事实文化，以及“就算你是个处男，你找到了处女，你 <strong>也要</strong> 作为经济上的主要承担者”的婚恋关系。同时也存在着“就算你是处男你也不可以要求对方是处女”的“政治正确”。</p>
+<p>题主的题目是“有处情的男性（处男）交往时什么策略最优”，有“处情”指的是“要找一个没有发生过性行为的女性作为妻子的情结”，而“处男”指的是“该男子现在还没有发生过性行为”。但是“现在还没有发生过性行为” <strong>不意味</strong> 着“就是一个保守的人”，先拿“非保守但是还没有发生过性行为的男性”为对象进行分析。</p>
+<p>既然是“非保守但是还没有发生过性行为的男性”，那么就意味着“他只是还没有发生过性行为但是愿意发生性行为”，在这样的一个前提之下，<strong>最好的一个策略就是“先去发生性行为”</strong>，但是请注意，这里的“先去发生性行为”不意味着你就要和你发生过性行为的对象进入婚姻，也不意味着你只和着一个人发生性行为，但是请注意，如果你和另一个女性是情侣关系，就要注意自身的行为在公共良俗之下的评价，在中国大陆“嫖娼和卖淫是非法的”也就是“性交易是非法的”，请不要采用“违法性质的性行为”。</p>
+<p>在确保“自身有足够丰富的性经验（人数和次数）”和“没有因此而染上疾病或者彻底败坏自己在社交圈的名声”的前提之下，想办法去<strong>“占有更多的社会资源”</strong> ，通俗一点讲就是赚更多的钱。赚更多的钱为目标的话，会出现两种情况，一种是“没有赚到对应足够的金钱”（对应你的综合诉求的高低），另一种是“能够赚到足够多的钱”。如果能够转到足够多的资金，就相当于掌握了足够多的选择权和话语权。</p>
+<p>如果“没有转到对应足够的金钱”，那么你想要的“物质资源”（如房车或者优质的房车）和“繁衍资源”（如年轻，漂亮，处女或者因素的不同结合）就无法被满足，这个时候当事人不能够有什么怨言，因为这是 <strong>“自己没有本事”</strong>。但是再这样的情况之下，当事人也不会处于“吃亏”的状态，因为当事人也有足够丰富的性经验,而金钱上也不会有太大的损失，因为本身就是“没有钱的状态”。</p>
+<p>如果有“足够多的资金”，就意味着当事人掌握了选择的资本，并且有三个选择。第一个选择时选 <strong>“生存资源换取生存资源”</strong>，也就是俗称的“钱色交易”。钱色交易存在着的一个问题就是 <strong>“信息的不全面”</strong>，也就是说对方可能会存在着欺骗的行为。比如进行“处女膜修补手术”来伪装“没有发生过性行为”的状态，亦或者是通过“整容”来提升自己的颜值（对帅和美的追求本身是在追求DNA）。不过这两种情况可以通过医学上的鉴定来辨别。另一种情况是“非阴道式性行为”，也就是包括“口交”，“肛交”等在内的性行为，这种性行为无法被很好的鉴别，但是可以通过减少“资金上的投入”和“签协议”来应对可能性的风险。</p>
+<p>第二种选择是 <strong>“生存资源换取生存资源”</strong>，也就是俗称的“钱钱交易”。钱钱中信息相对于钱色交易是全面的，也就是说对方所处的阶层/阶级和对方所拥有的资源（如房，公司等）是可以被考察的，不容易伪造。但是因为双方所能够提供的资产相当，所以双方在这段婚姻中的话语权是对等的。这就意味着男方没有资本能提出“女方没有发生过性行为”或者“女方的颜值远高于男方”这样的需求。但是因为“男方本身有着非常丰富的性行为”所以就算是出现了“女方有丰富的性行为”的情况，也是不会“吃亏的”。另外由于话语权的相当，这就意味着男女双方在家务劳动等方面需要承当对等的责任。这种行为能够结合双方的资源，稳定性高，能够巩固自己在阶层中所处于的地位，也是对于马克思对婚姻的定义“婚姻是私有制之下的财产在分配”的最好的诠释。</p>
+<p>第三种选择是 <strong>”不结婚”</strong>。不结婚就意味着不与他人进行“婚恋关系”的交易。现在的社会与过去的社会已经不相同，婚姻的功能可以功过其他形式来进行外包（事实上以前的有钱人也能够做到这一点）。</p>
+<p><strong>婚姻有三种功能</strong>：</p>
+<ol>
+<li>合作育儿（包括生育和抚养）</li>
+<li>财产继承</li>
+<li>长期合法的性交易</li>
+</ol>
+<p><strong>这三个功能可以对应</strong>：</p>
+<ol>
+<li>代孕+请保姆</li>
+<li>法律规定非婚子女享有同样的继承权</li>
+<li>包养/约炮等行为（性交易违法，约炮有风险，保养是灰色地带）</li>
+</ol>
+<p>这是一个就“风险”而言最为稳妥的选择，但是这个选择存在着极高的门槛也就是“物质基础”。代孕和请保姆这些行为都需要非常多的资金（请注意，如果价格高是因为婚姻本身还存在，假如婚姻能够算的这么清楚，或者婚姻破裂而通过外包的功能来实施，也就意味着价格会断崖式的下滑）。保养本身也是一笔不小的开资。而且这相对于婚姻而言稳定性不高，因为婚姻是双方共同抵抗风险，但是在这总情况下一旦出现了财务上的风险，很容易被整个摧毁。</p>
+<p>上述的内容做成思维导图就是如下所示：<br><img src="//IceDrinkerSHEN.github.io/2018/04/21/处男的博弈/博弈图一.jpg" alt="文章框架思维导图"></p>
+<p>第二种情况本身是男方也是保守的人。也就是说男方要维持原诉求（要找一个没有发生过性行为的女性为配偶），那么如同能够赚取金钱中的第一种“生存资源换取生存资源”的情况。就会发生一下的博弈：<br><img src="//IceDrinkerSHEN.github.io/2018/04/21/处男的博弈/博弈图二.jpg" alt="保守男性的择偶策略博弈图"></p>
+<p>在知乎有用户说“声称自己是处女的女性也有可能有有口交，肛交的经历”来暗示“选择处女和非处女是一样”的结论。但是从上面的这个博弈结果来看，维持原有的诉求是符合博弈的。</p>
+<p>对于男性而言，<strong>“婚前禁欲/保证自己是处男”</strong> 是一个极低性价比的选择。除非男性本身是 <strong>“有宗教信仰/有道德操守”</strong> 的人，不然的话，<strong>保证自己有足够的性经验和发生性行为的人数</strong> 将会是一个更好的选择，接着就是拼自己的实力看看能不能够占有更多的社会物质资源。</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>很高兴文章能够对你提供帮助，捐赠是继续下去的动力</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.jpg" alt="一念永安 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/两性/" rel="tag"># 两性</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/04/20/睡眠革命/" rel="next" title="睡眠革命">
+                <i class="fa fa-chevron-left"></i> 睡眠革命
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/04/21/学习之道-Week1/" rel="prev" title="学习之道(1):何谓学习">
+                学习之道(1):何谓学习 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.png"
+                alt="一念永安" />
+            
+              <p class="site-author-name" itemprop="name">一念永安</p>
+              <p class="site-description motion-element" itemprop="description">万般带不走，唯有业随身。一朝无常至，方知梦中人。</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">59</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">21</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/IceDrinkerSHEN" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-globe"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:xww591301092@126.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-globe"></i>E-Mail</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://gitee.com/yinianyongan/events" target="_blank" title="码云">
+                      
+                        <i class="fa fa-fw fa-globe"></i>码云</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.zhihu.com/people/shenyinian/activities" target="_blank" title="知乎">
+                      
+                        <i class="fa fa-fw fa-globe"></i>知乎</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.douban.com/people/IceDrinker/" target="_blank" title="豆瓣">
+                      
+                        <i class="fa fa-fw fa-globe"></i>豆瓣</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">一念永安</span>
+
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count">195.8k</span>
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
